@@ -15,6 +15,14 @@
   user-select: none;
 }
 
+  .button-container:hover {
+    background-color: var(--btn-number-hover);
+  }
+
 .operator {
   background-color: var(--btn-operator);
 }
+
+  .operator:hover { 
+    background-color: var(--btn-operator-hover);
+  }
