@@ -1,7 +1,8 @@
-import { useState } from 'react'
+import './App.css'
 import Button from './components/Button'
 import Display from './components/Display'
-import './App.css'
+import ClearButton from './components/ClearButton'
+
 
 function App() {
   return (
@@ -32,7 +33,9 @@ function App() {
           <Button>.</Button> 
           <Button>/</Button>
         </div>
-        <div className='row'> </div>
+        <div className='row'>
+          <ClearButton>Clear</ClearButton>
+        </div>
       </div>
     </div>
   )

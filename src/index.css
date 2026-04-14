@@ -2,12 +2,14 @@
   --bg-color: #ffb6c1;
   --calc-body: rgba(255, 255, 255, 0.75);
   --btn-number: #ffe4e1;
+  --btn-clear: #ff69b4;
   --btn-operator: #ff69b4;
   --btn-action: #db7093;
   --text-main: #4a4a4a;
   --glass-border: rgba(255, 255, 255, 0.3);
   --btn-number-hover: rgba(255, 255, 255, 0.5);
   --btn-operator-hover: rgba(255, 105, 180, 0.5);
+  --btn-clear-hover: rgba(255, 105, 180, 0.5);
   --input-bg: rgba(255, 255, 255, 0.5);
   --text-input: #4a4a4a;
 }

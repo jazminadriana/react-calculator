@@ -10,6 +10,6 @@
   background-color: var(--input-bg);
   color: var(--text-input);
   padding: 11px 30px 11px 11px;
-  margin; 1px solid var(--glass-border);
+  margin: 1px solid var(--glass-border);
   box-shadow: -1px 4px 1px 1px var(--glass-border);      
 }
