@@ -8,6 +8,8 @@
   --glass-border: rgba(255, 255, 255, 0.3);
   --btn-number-hover: rgba(255, 255, 255, 0.5);
   --btn-operator-hover: rgba(255, 105, 180, 0.5);
+  --input-bg: rgba(255, 255, 255, 0.5);
+  --text-input: #4a4a4a;
 }
 
 
