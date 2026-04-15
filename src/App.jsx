@@ -13,7 +13,16 @@ function App() {
   };
 
   const calculateResult = () => {
-    setInput(evaluate(input));  
+    if (input) {
+      try {
+      setInput(String(evaluate(input)));
+      } catch (error) {
+        alert("Invalid expression");
+        setInput('');
+      } 
+    } else {
+      alert("Please enter a valid expression");
+    } 
   };
 
   return (
