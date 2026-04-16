@@ -1,19 +1,19 @@
-import React from 'react';
 import './Button.css'
 
-function Button(props) {
+function Button({ children, handleClick }) {
 
   const isOperator = value => {
     return isNaN(value) && (value !== '.') && (value !== '='); 
   };
 
   return (
-    <div 
-      className={`button-container ${isOperator(props.children) ? 'operator' : ''}`.trimEnd()} 
-      onClick={() => props.handleClick(props.children)}>
-      {props.children}
-    </div>
+    <button 
+      type="button"
+      className={`button-container ${isOperator(children) ? 'operator' : ''}`.trimEnd()} 
+      onClick={() => handleClick(children)}>
+      {children}
+    </button>
       );
 }
 
-export default Button
+export default Button;

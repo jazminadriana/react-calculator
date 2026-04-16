@@ -4,18 +4,26 @@
   flex: 1 1;
   align-items: center;
   justify-content: center;
+  font-family: inherit;
   font-weight: bold;
   font-size: 1.2rem;
   background-color: var(--btn-number);
   color: var(--text-main);
+  outline: none;
   border-radius: 25px;
-  border: 2px solid var(--glass-border);
+  border:none;
   margin: 4px;
   cursor: pointer;
   user-select: none;
+  transition: background-color 0.2s ease;
 }
 
-  .button-container:hover {
+.button-container:active {
+  transform: scale(0.95); 
+  opacity: 0.8;         
+}
+
+.button-container:hover {
     background-color: var(--btn-number-hover);
   }
 
@@ -23,6 +31,6 @@
   background-color: var(--btn-operator);
 }
 
-  .operator:hover { 
+.operator:hover { 
     background-color: var(--btn-operator-hover);
   }

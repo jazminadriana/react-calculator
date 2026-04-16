@@ -1,5 +1,6 @@
 .clear-button {
   height: 80px;
+  font-family: inherit;
   font-size: 1.6em;
   display: flex;
   flex: 1;
@@ -9,11 +10,21 @@
   align-items: center;
   font-weight: bold;
   color: var(--text-main);
-  border: 2px solid var(--glass-border);
+  border: none;
   cursor: pointer;
   border-radius: 25px;
+  transition: all 0.2s ease;
 }
 
 .clear-button:hover {
   background-color: var(--btn-clear-hover);
+}
+
+.clear-button:active {
+  transform: scale(0.98); 
+}
+
+.clear-button:focus {
+  outline: 2px solid var(--btn-clear-hover);
+  outline-offset: 2px;
 }
