@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/Display.css';
+import './Display.css';
 
 const Display = ({ input }) => (
     <div className='input'>
-        {input}
+        {input|| '0'}
     </div>
-)
+);
 
 export default Display;

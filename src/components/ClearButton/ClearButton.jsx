@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/ClearButton.css';
+import './ClearButton.css';
 
 const ClearButton = (props) => (
   <div 
@@ -7,6 +7,6 @@ const ClearButton = (props) => (
     onClick ={props.handleClear}>
     {props.children}
   </div>
-)
+);
 
 export default ClearButton;
